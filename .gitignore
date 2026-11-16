@@ -1,0 +1,14 @@
+dist/
+node_modules/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+
+# Kept on this PC only (internal plan, DNS tool, Cloudflare Worker config)
+DEPLOY-PLAN.md
+dns-check.mjs
+wrangler.jsonc
